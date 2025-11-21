@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Kedai Belkin</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="spinner" role="status" aria-hidden="true"></div>
+        <p>Sedang Memuat...</p>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+              <img src="logo kedai belkin.png" alt="Logo Kedai Belkin" class="logo-circle">
+              Kedai Belkin
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tentangkami">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#produk">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#testimoni">Testimoni</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid" id="home">
+        <div class="container">
+            <h1 class="display-4">Selamat Datang di Kedai Belkin</h1>
+            <p class="lead">Nikmati cita rasa autentik dalam setiap gigitan</p>
+            <a href="#produk" class="btn btn-lg mt-3">Lihat Menu</a>
+        </div>
+    </div>
+
+    <section id="tentangkami" class="fade-section">
+        <div class="container tentang-container">
+            <div class="tentang-img fade-item">
+                <img src="kedai belkin foto.jpg" alt="Foto Kedai Belkin">
+            </div>
+
+            <div class="tentang-text fade-item">
+                <h2 class="mb-4">Kedai Belkin</h2>
+                <p>
+                    Kedai Belkin dibuat pada tahun 2023. Tujuan dibuatnya kedai ini untuk membuka lapangan kerja di kedepannya.
+                    Usaha ini dibuat juga karena sang pemilik kedai suka memasak, sehingga semua orang dapat mencoba cita rasa
+                    makanan yang dibuatnya. Selain itu, pemilik usaha ingin membuat inovasi baru dengan menghadirkan makanan
+                    berbeda dari yang lain—tentunya HALAL ya teman-teman.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" class="fade-section">
+        <div class="container">
+            <h3><span>Menu</span></h3>
+            <div class="menu-container">
+
+                <div class="menu-item fade-item">
+                    <a href="seblak.html" title="Seblak">
+                        <img src="seblak.jpg" alt="Seblak" class="menu-img">
+                    </a>
+                    <h4>Seblak</h4>
+
+                    <!-- Tombol Pesan -->
+                    <a href="https://wa.me/628975991366?text=Saya%20ingin%20pesan%20Seblak" 
+                    class="order-btn" target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+                <div class="menu-item fade-item">
+                    <a href="bakso-aci.html" title="Bakso Aci">
+                        <img src="bakso aci.jpg" alt="Bakso Aci" class="menu-img">
+                    </a>
+                    <h4>Bakso Aci</h4>
+
+                    <!-- Tombol Pesan -->
+                    <a href="https://wa.me/628975991366?text=Saya%20ingin%20pesan%20Bakso%20Aci" 
+                    class="order-btn" target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+                <div class="menu-item fade-item">
+                    <a href="tempura.html" title="Tempura">
+                        <img src="Tempura.jpg" alt="Tempura" class="menu-img">
+                    </a>
+                    <h4>Aneka Tempura</h4>
+
+                    <!-- Tombol Pesan -->
+                    <a href="https://wa.me/628975991366?text=Saya%20ingin%20pesan%20Tempura" 
+                    class="order-btn" target="_blank">
+                        Pesan Sekarang
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="testimoni" class="fade-section">
+        <div class="container">
+            <h3><span>Testimoni</span></h3>
+            <div class="testimoni-container">
+                <div class="testimoni-card"><img src="ulasan 1.png" alt="Testimoni 1"></div>
+                <div class="testimoni-card"><img src="ulasan 2.png" alt="Testimoni 2"></div>
+                <div class="testimoni-card"><img src="ulasan 3.png" alt="Testimoni 3"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="fade-section">
+        <div class="container">
+            <h3><span>Kontak</span></h3>
+            <div class="contact-container">
+                <div class="contact-item fade-item">
+                    <h4>📍 Lokasi Kedai Belkin</h4>
+                    <p>Kunjungi kedai kami dan rasakan langsung cita rasa yang dibuat dengan penuh cinta!</p>
+                    <p><strong>Alamat:</strong><br>
+                    Jl. Wiyoro Kidul No.37, Wiyoro, Baturetno, Kec. Banguntapan,<br>
+                    Bantul, Daerah Istimewa Yogyakarta 55197</p>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3952.6312219184956!2d110.40967227500533!3d-7.828798492192205!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a57e52046e4bb%3A0x8c954ec05762ea33!2zS2VkYWkgQmVsa2luICjqpo_qprzqpqPqprvqpqfqprzqpq3qp4Dqpo_qprbqpqTqp4Ap!5e0!3m2!1sid!2sid!4v1763523796836!5m2!1sid!2sid"
+                        width="100%" height="350" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="contact-item fade-item">
+                    <h4>📞 Hubungi Kami</h4>
+                    <p>Kalian mau tanya-tanya seputar menu, harga, atau ingin request level pedas? Tenang! Kami selalu siap membantu kalian.</p>
+
+                    <a class="sosmed-link" href="https://www.instagram.com/kedai_belkin" target="_blank" rel="noopener">
+                        <img src="logo ig.png" alt="Instagram"> Kunjungi Instagram Kedai Belkin
+                    </a>
+
+                    <p>Ingin pesan dari rumah? Yuk, pesan sekarang lewat WhatsApp!</p>
+
+                    <a class="wa-link" href="https://api.whatsapp.com/send?phone=628975991366" target="_blank" rel="noopener">
+                        <img src="logo wa.png" alt="WhatsApp"> Pesan via WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Copyright &copy;2025 Develop by Alfath dan Wisnu</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
+
