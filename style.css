@@ -287,6 +287,15 @@ section {
     display: block;
 }
 
+.menu-category-title {
+    font-size: 28px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #222;
+    font-weight: bold;
+}
+
 /* Testimoni */
 #testimoni {
     background-color: var(--light-color);
